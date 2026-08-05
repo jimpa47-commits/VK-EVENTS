@@ -355,13 +355,72 @@ footer{
 @media (max-width:768px){
 
     .hero{
-    background:
-        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-        url("images/vk-hero.png") center center / cover no-repeat;
-}
 
-.hero-right{
-    display:none;
-}
+        min-height:100vh;
+
+        display:flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+
+        padding:50px 25px;
+
+        background:
+            linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+            url("images/vk-hero.png") center center no-repeat;
+
+        background-size:cover;
+    }
+
+    .hero-right{
+        display:none;
+    }
+
+    .hero-left{
+
+        width:100%;
+    }
+
+    .hero-top{
+
+        margin-top:0;
+    }
+
+    .hero-bottom{
+
+        margin-top:180px;
+    }
+
+    .hero h1{
+
+        font-size:2.8rem;
+
+        line-height:1.1;
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+        line-height:1.7;
+
+        margin-bottom:30px;
+    }
+
+    .btn{
+
+        display:inline-block;
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .contact-info{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:25px;
+    }
 
 }
