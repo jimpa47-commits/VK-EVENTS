@@ -360,16 +360,16 @@ footer{
         url("images/vk-hero.png") center center / cover no-repeat;
 }
 
+.hero-right{
+    display:none;
+}
+
 .hero-top{
     margin-top:-70px;
 }
 
 .hero-bottom{
     margin-top:140px;
-}
-
-.hero-right{
-    display:none;
 }
 
 }
