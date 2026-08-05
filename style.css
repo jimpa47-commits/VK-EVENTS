@@ -112,7 +112,7 @@ body{
 
     padding:120px 7%;
 
-    background:#0b0b0b;
+    background:#000000;
 
     display:flex;
     justify-content:center;
@@ -232,7 +232,7 @@ body{
 
     inset:0;
 
-    background:rgba(0,0,0,.92);
+    background:rgba(0, 0, 0, 0.92);
 
     display:none;
 
@@ -280,7 +280,7 @@ body{
 
     padding:120px 7%;
 
-    background:#0b0b0b;
+    background:#000000;
 
     text-align:center;
 }
@@ -361,7 +361,7 @@ footer{
 
 .hero{
     background:
-        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0,0,0,.35)),
         url("images/vk-hero.png") center center / cover no-repeat;
 }
 
