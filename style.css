@@ -355,12 +355,39 @@ footer{
 @media (max-width:768px){
 
 .hero{
+
     background:url("images/vk-hero.png") center bottom no-repeat;
     background-size:cover;
 }
 
+.hero-left{
+
+    margin-top:-70px;
+}
+
 .hero-right{
-    display:none;
+
+    display:flex;
+    width:100%;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.hero-right img{
+
+    width:100%;
+    max-width:420px;
+    transform:none;
+}
+
+.hero p{
+
+    margin-top:40px;
+}
+
+.btn{
+
+    margin-top:25px;
 }
 
 }
