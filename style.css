@@ -370,13 +370,11 @@ footer{
     }
 
     .hero p{
-        position:relative;
-        top:90px;
-    }
+    padding-top:120px;
+}
 
-    .hero .btn{
-        position:relative;
-        top:110px;
-    }
+.hero .btn{
+    margin-top:40px;
+}
 
 }
