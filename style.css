@@ -357,7 +357,7 @@ footer{
     .hero{
     background:
         linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-        url("images/vk-hero.png") center center / cover no-repeat;
+        url("images/vk-hero.webp") center center / cover no-repeat;
 }
 
 .hero-top{
