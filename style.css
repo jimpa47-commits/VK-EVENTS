@@ -36,14 +36,14 @@ body{
 
 .hero-left{
 
-    flex:0 0 42%;
+    flex:0 0 58%;
     position:relative;
     z-index:2;
 }
 
 .hero-right{
 
-    flex:0 0 58%;
+    flex:0 0 50%;
 
     display:flex;
     justify-content:flex-end;
@@ -355,7 +355,7 @@ footer{
 @media (max-width:768px){
 
 .hero{
-    background:url("images/vk-hero-mobile.png") center bottom no-repeat;
+    background:url("images/vk-hero.png") center bottom no-repeat;
     background-size:cover;
 }
 
