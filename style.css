@@ -166,7 +166,7 @@ body{
 
     padding:120px 7%;
 
-    background:#111;
+    background:#000000;
 
     text-align:center;
 }
@@ -369,14 +369,11 @@ footer{
     display:none;
 }
 
-.hero p{
+.hero p,
+.hero .btn{
 
-    margin-top:120px;
-}
-
-.btn{
-
-    margin-top:40px;
+    position:relative;
+    top:60px;
 }
 
 }
