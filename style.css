@@ -355,26 +355,21 @@ footer{
 @media (max-width:768px){
 
     .hero{
-        background:
-            linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-            url("images/vk-hero.png") center center / cover no-repeat;
-    }
-
-    .hero-right{
-        display:none;
-    }
-
-    .hero-left{
-        position:relative;
-        top:-60px;
-    }
-
-    .hero p{
-    padding-top:120px;
+    background:
+        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        url("images/vk-hero.png") center center / cover no-repeat;
 }
 
-.hero .btn{
-    margin-top:40px;
+.hero-top{
+    margin-top:-70px;
+}
+
+.hero-bottom{
+    margin-top:140px;
+}
+
+.hero-right{
+    display:none;
 }
 
 }
