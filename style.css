@@ -359,19 +359,14 @@ footer{
     margin-top:-140px;
 }
 
-.hero-right{
-
-    display:flex;
-    width:100%;
-    justify-content:center;
-    margin-top:40px;
+.hero{
+    background:
+        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        url("images/vk-hero.png") center center / cover no-repeat;
 }
 
-.hero-right img{
-
-    width:100%;
-    max-width:420px;
-    transform:none;
+.hero-right{
+    display:none;
 }
 
 .hero p{
